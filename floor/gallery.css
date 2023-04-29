@@ -1,0 +1,24 @@
+div.gallery {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+div.gal {
+    width: 150px;
+    height: 140px;
+    border: 4px dashed darkslategray;
+    margin-left: 45px;
+    padding: 5px;
+    float: left;
+}
+
+div.desc {
+    width: 130px;
+    margin: 2px;
+}
+
+.gal-image {
+    width: 110px;
+    height: 90px;
+}

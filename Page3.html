@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Floor 1</title>
+    <link href="./floor/format.css" rel="stylesheet">
+    <link href="./floor/carousel.css" rel="stylesheet">
+    <link href="./floor/gallery.css" rel="stylesheet">
+    <link href="./floor/modal.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+
+<body style="background-image: url(./page3/background.jpg);">
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo" style="float: left; margin-right: 10px;">
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="Page1.html">Home</a></li>
+                <li><a href="Page2.html">About Us</a></li>
+                <li><a href="Page3.html">Ground Flr</a></li>
+                <li><a href="Page4.html">Second Flr</a></li>
+                <li><a href="Page5.html">Third Flr</a></li>
+                <li><a href="Page6.html">Fourth Flr</a></li>
+                <li><a href="Page7.html">Contact Us</a></li>
+                <li><a href="Page8.html">Maps</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+    <section>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./page3/spotlight-1.jpg" style="width:100%" height="500">
+                <div class="text">Indulge in Delicious Food</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./page3/spotlight-2.jpg" style="width:100%" height="500">
+                <div class="text">Shop in Style</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./page3/spotlight-3.jpg" style="width:100%" height="500">
+                <div class="text">Relax and Unwind</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <br />
+        <table width="850" class="center">
+            <tr>
+                <th colspan="4">GROUND FLOOR</th>
+            </tr>
+            <tr>
+                <td><a>
+                        <div class="container"><a href="#c1"><img src="./page3/cat-fastfood.jpg" class="category">
+                                <h3 class="centered">Fastfood</h3>
+                            </a>
+                        </div>
+                    </a></td>
+                <td><a>
+                        <div class="container"><a href="#c1"><img src="./page3/cat-dessert.jpg" class="category">
+                                <h3 class="centered">Desserts</h3>
+                            </a>
+                        </div>
+                    </a></td>
+                <td><a>
+                        <div class="container"><a href="#c3"><img src="./page3/cat-japan.jpg" class="category">
+                                <h3 class="centered">Japan Cuisine</h3>
+                            </a>
+                        </div>
+                    </a></td>
+                <td><a>
+                        <div class="container"><a href="#c4"><img src="./page3/cat-pizza.png" class="category">
+                                <h3 class="centered">Pizza</h3>
+                            </a>
+                        </div>
+                    </a></td>
+            </tr>
+            <tr>
+                <td><a>
+                        <div class="container"><a href="#c2"><img src="./page3/cat-cosmetics.jpg" class="category">
+                                <h3 class="centered">Cosmetics</h3>
+                            </a>
+                    </a>
+                    </div>
+                    </a></td>
+                <td><a>
+                        <div class="container"><a href="#c1"><img src="./page3/cat-apparel.jpg" class="category">
+                                <h3 class="centered">Apparel</h3>
+                            </a>
+                        </div>
+                    </a></td>
+                <td><a>
+                        <div class="container"><a href="#c1"><img src="./page3/cat-footwear.jpg" class="category">
+                                <h3 class="centered">Footwear</h3>
+                            </a>
+                        </div>
+                    </a></td>
+                <td><a>
+                        <div class="container"><a href="#c4"><img src="./page3/cat-greenwich.jpg" class="category">
+                                <h3 class="centered">Other food</h3>
+                            </a>
+                    </a>
+                    </div>
+                    </a></td>
+            </tr>
+        </table>
+
+
+
+
+
+
+
+        <div class="gallery">
+            <a id="c1"></a>
+            <h1>Fastfood and Restaurants</h1>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal1')" id="myImg" src="./page3/ff-1.jpg">
+                <div class="desc">KFC</div>
+                <div id="myModal1" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal1')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xff-1.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal2')" id="myImg" src="./page3/ff-2.png">
+                <div class="desc">McDo</div>
+                <div id="myModal2" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal2')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xff-2.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal3')" id="myImg" src="./page3/ff-3.jpg">
+                <div class="desc">Jolibee</div>
+                <div id="myModal3" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal3')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xff-3.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal4')" id="myImg" src="./page3/ff-4.jpg">
+                <div class="desc">Shakey's</div>
+                <div id="myModal4" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal4')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xff-4.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal5')" id="myImg" src="./page3/ff-5.png">
+                <div class="desc">Tokyo Tokyo</div>
+                <div id="myModal5" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal5')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xff-5.jpg">
+                </div>
+            </div>
+            <a id="c2"></a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1>Clothing and Apparel Shops</h1>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal11')" id="myImg" src="./page3/ca-1.jpg">
+                <div class="desc">Guess</div>
+                <div id="myModal11" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal11')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xca-1.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal12')" id="myImg" src="./page3/ca-2.jpg">
+                <div class="desc">Regatta</div>
+                <div id="myModal12" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal12')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xca-2.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal13')" id="myImg" src="./page3/ca-3.png">
+                <div class="desc">Bata Shoes</div>
+                <div id="myModal13" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal13')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xca-3.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal14')" id="myImg" src="./page3/ca-4.jpg">
+                <div class="desc">All FlipFlops</div>
+                <div id="myModal14" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal14')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xca-4.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal15')" id="myImg" src="./page3/ca-5.png">
+                <div class="desc">Uniqlo</div>
+                <div id="myModal15" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal15')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xca-5.jpg">
+                </div>
+            </div>
+            <a id="c3"></a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1>Dessert and Cake Shops</h1>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal21')" id="myImg" src="./page3/dc-1.jpg">
+                <div class="desc">BreadTalk</div>
+                <div id="myModal21" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal21')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xdc-1.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal22')" id="myImg" src="./page3/dc-2.png">
+                <div class="desc">Goldilocks</div>
+                <div id="myModal22" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal22')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xdc-2.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal23')" id="myImg" src="./page3/dc-3.png">
+                <div class="desc">Razon's</div>
+                <div id="myModal23" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal23')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xdc-3.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal24')" id="myImg" src="./page3/dc-4.png">
+                <div class="desc">Dairy Queen</div>
+                <div id="myModal24" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal24')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xdc-4.jpg">
+                </div>
+            </div>
+            <div class="gal">
+                <img class="open-modal gal-image" onclick="openModal('myModal25')" id="myImg" src="./page3/dc-5.jpg">
+                <div class="desc">Conti's</div>
+                <div id="myModal25" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close" onclick="closeModal('myModal25')">X</span>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" src="./page3/xdc-5.jpg">
+                </div>
+            </div>
+            <a id="c4"></a>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+        <script src="./floor/carousel.js"></script>
+        <script src="./floor/modal.js"></script>
+    </section>
+    <footer>
+        <center>
+            <div class="footer">
+              <p> Metro Center Mall, Manila, Philippines | Phone: +63 (2) 123-4567 | Email: info@metrocentermall.com</p>
+              <p>Copyright © 2023 Metro Center Mall. All rights reserved.</p>
+            </div>
+          </center>
+    </footer>
+</body>
+
+</html>

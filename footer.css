@@ -1,0 +1,16 @@
+.footer {
+	width: 75%;
+	min-height: 50px;
+	padding: 20px 50px;
+	margin-top: 10px;
+	background: gray;
+	text-align: center;
+	
+}
+
+.footer p {
+	color: white;
+	margin: 5px;
+	padding-top: 10px auto;
+	padding-bottom: 10px auto;
+}
